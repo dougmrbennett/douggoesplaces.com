@@ -1,0 +1,126 @@
+{
+  "videos": [
+    {
+      "id": "sample-video-1",
+      "title": "Singapore Airlines Suites Class: Is It Worth 1 Million Miles?",
+      "description": "We fly Singapore Airlines' legendary Suites Class from Singapore to Tokyo and put the private cabin, the caviar service, and the double bed to the test. Plus a tour of the Singapore Airlines lounge at Changi Airport.",
+      "publishedAt": "2025-08-02T14:00:00Z",
+      "tags": ["Singapore Airlines", "Suites Class", "Tokyo", "Singapore", "flight review", "first class", "Changi Airport"],
+      "thumbnailUrl": "",
+      "durationSeconds": 1284,
+      "durationLabel": "21:24",
+      "viewCount": 184230,
+      "isShort": false
+    },
+    {
+      "id": "sample-video-2",
+      "title": "48 Hours in Bangkok: Street Food, Rooftop Bars, and a $30 Hotel Suite",
+      "description": "A whirlwind 48 hours in Bangkok eating our way through Chinatown street food stalls, watching the sunset from a rooftop bar, and checking into a surprisingly luxe hotel suite for under $30 a night.",
+      "publishedAt": "2025-07-18T14:00:00Z",
+      "tags": ["Bangkok", "Thailand", "street food", "hotel review", "city guide"],
+      "thumbnailUrl": "",
+      "durationSeconds": 912,
+      "durationLabel": "15:12",
+      "viewCount": 97650,
+      "isShort": false
+    },
+    {
+      "id": "sample-video-3",
+      "title": "Ritz-Carlton Kyoto Review: The Best Hotel We've Ever Stayed At?",
+      "description": "An in-depth review of the Ritz-Carlton Kyoto, including the riverside rooms, the kaiseki breakfast, and whether it's worth booking with points versus cash.",
+      "publishedAt": "2025-06-05T14:00:00Z",
+      "tags": ["Ritz-Carlton", "Kyoto", "Japan", "hotel review", "points and miles", "luxury travel"],
+      "thumbnailUrl": "",
+      "durationSeconds": 1043,
+      "durationLabel": "17:23",
+      "viewCount": 152400,
+      "isShort": false
+    },
+    {
+      "id": "sample-video-4",
+      "title": "Walking Every Street of Lisbon's Alfama District",
+      "description": "A slow, scenic walking tour through Lisbon's oldest neighborhood, Alfama, with stops for pastel de nata, fado music, and the best miradouro viewpoints.",
+      "publishedAt": "2025-05-14T14:00:00Z",
+      "tags": ["Lisbon", "Portugal", "walking tour", "city guide", "food"],
+      "thumbnailUrl": "",
+      "durationSeconds": 1567,
+      "durationLabel": "26:07",
+      "viewCount": 63200,
+      "isShort": false
+    },
+    {
+      "id": "sample-video-5",
+      "title": "Emirates First Class Shower Spa: 14 Hours from Dubai to Auckland",
+      "description": "Testing the Emirates A380 First Class shower spa, onboard bar, and private suite on the ultra long-haul route from Dubai to Auckland, booked entirely with miles.",
+      "publishedAt": "2025-04-22T14:00:00Z",
+      "tags": ["Emirates", "First Class", "Dubai", "Auckland", "flight review", "points and miles", "A380"],
+      "thumbnailUrl": "",
+      "durationSeconds": 1398,
+      "durationLabel": "23:18",
+      "viewCount": 241800,
+      "isShort": false
+    },
+    {
+      "id": "sample-video-6",
+      "title": "Mexico City Food Tour: 12 Tacos in 12 Hours",
+      "description": "A marathon taco crawl through Mexico City neighborhoods Roma, Condesa, and Centro, tasting tacos al pastor, birria, and everything in between.",
+      "publishedAt": "2025-03-09T14:00:00Z",
+      "tags": ["Mexico City", "Mexico", "food tour", "street food", "city guide"],
+      "thumbnailUrl": "",
+      "durationSeconds": 1122,
+      "durationLabel": "18:42",
+      "viewCount": 88900,
+      "isShort": false
+    }
+  ],
+  "shorts": [
+    {
+      "id": "sample-short-1",
+      "title": "The croissant that changed my life (Paris)",
+      "description": "This tiny bakery near Le Marais makes the best croissant I've had in Paris, hands down.",
+      "publishedAt": "2025-08-10T14:00:00Z",
+      "tags": ["Paris", "France", "food", "shorts"],
+      "thumbnailUrl": "",
+      "durationSeconds": 42,
+      "durationLabel": "0:42",
+      "viewCount": 512000,
+      "isShort": true
+    },
+    {
+      "id": "sample-short-2",
+      "title": "This hotel pool in Bali is unreal",
+      "description": "An infinity pool overlooking the jungle at a hotel in Ubud, Bali that costs less than a hotel parking fee back home.",
+      "publishedAt": "2025-08-05T14:00:00Z",
+      "tags": ["Bali", "Indonesia", "hotel review", "shorts"],
+      "thumbnailUrl": "",
+      "durationSeconds": 28,
+      "durationLabel": "0:28",
+      "viewCount": 389000,
+      "isShort": true
+    },
+    {
+      "id": "sample-short-3",
+      "title": "How I book business class for less than economy",
+      "description": "A quick breakdown of the points and miles trick that got me a business class seat to Tokyo for less than an economy ticket.",
+      "publishedAt": "2025-07-29T14:00:00Z",
+      "tags": ["points and miles", "business class", "Tokyo", "shorts"],
+      "thumbnailUrl": "",
+      "durationSeconds": 55,
+      "durationLabel": "0:55",
+      "viewCount": 274500,
+      "isShort": true
+    },
+    {
+      "id": "sample-short-4",
+      "title": "Street food stall vs 5-star hotel breakfast",
+      "description": "Comparing a $2 street food breakfast in Bangkok to a $80 hotel breakfast buffet. The winner might surprise you.",
+      "publishedAt": "2025-07-20T14:00:00Z",
+      "tags": ["Bangkok", "Thailand", "food", "hotel review", "shorts"],
+      "thumbnailUrl": "",
+      "durationSeconds": 38,
+      "durationLabel": "0:38",
+      "viewCount": 198000,
+      "isShort": true
+    }
+  ]
+}

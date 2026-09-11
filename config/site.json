@@ -1,0 +1,23 @@
+{
+  "channelName": "Doug Goes Places",
+  "tagline": "I GO ALL OVER THE PLACE - TRAVEL, FLIGHTS and HIDDEN GEMS",
+  "description": "Destination vlogs, flight and hotel reviews, and city walking tours from Doug Goes Places.",
+  "social": {
+    "youtubeUrl": "https://www.youtube.com/@douggoesplaces",
+    "instagramUrl": "https://www.instagram.com/douggoesplaces",
+    "tiktokUrl": "https://www.tiktok.com/@douggoesplaces",
+    "email": "douggoesplaces@gmail.com"
+  },
+  "youtube": {
+    "channelHandle": "@douggoesplaces",
+    "channelId": "UCqK9hdDNO3ByVJ3WZGN430Q"
+  },
+  "hero": {
+    "type": "image",
+    "youtubeVideoId": "",
+    "videoFile": "/hero-video.mp4",
+    "image": "/hero-image.jpg"
+  },
+  "avatarImage": "/profile.jpg",
+  "featuredVideoId": ""
+}

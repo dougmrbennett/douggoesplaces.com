@@ -1,26 +1,64 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0e1a20;
+  --foreground: #f4ede1;
 }
 
+/*
+  Doug Goes Places dark palette — warm sunset coral + deep ocean teal
+  accents over a dark, editorial travel-magazine backdrop. This is a
+  starting point: once you've seen it live, swap any of these for colors
+  sampled from your own thumbnails if you'd like a closer match.
+
+  "sand" and "sand-dark" name the page/card background roles (page bg and a
+  slightly raised surface for cards and inputs); "ink" stays a fixed dark
+  navy used for the hero/footer bands and icon buttons regardless of theme;
+  "cloud" is the light text color used everywhere on top of those dark
+  surfaces.
+*/
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-ink: #12232c;
+  --color-cloud: #f4ede1;
+  --color-ocean: #0b6e7a;
+  --color-ocean-dark: #084f58;
+  --color-sunset: #f2542d;
+  --color-sunset-light: #ff8b63;
+  --color-sand: #0e1a20;
+  --color-sand-dark: #1c2e37;
+  --color-gold: #d9a441;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
 }
