@@ -71,7 +71,13 @@ export function ShortsCarousel({ shorts, onOpenModal }: { shorts: Video[]; onOpe
 
   useEffect(() => {
     const slide = slideRefs.current.get(activeIndex);
-    slide?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+    const track = trackRef.current;
+    if (!slide || !track) return;
+    // Scroll only the carousel track itself, not the page — scrollIntoView()
+    // can also scroll the whole document to bring an off-screen element into
+    // view, which was yanking the page down to this section on load.
+    const targetLeft = slide.offsetLeft - (track.clientWidth - slide.clientWidth) / 2;
+    track.scrollTo({ left: targetLeft, behavior: "smooth" });
   }, [activeIndex]);
 
   return (
