@@ -9,6 +9,7 @@ export interface SiteConfig {
     instagramUrl: string;
     tiktokUrl: string;
     email: string;
+    buyMeACoffeeUrl: string;
   };
   youtube: {
     channelHandle: string;

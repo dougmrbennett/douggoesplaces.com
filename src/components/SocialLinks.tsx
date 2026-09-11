@@ -42,11 +42,37 @@ function MailIcon() {
   );
 }
 
+function CoffeeIcon() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="h-5 w-5"
+      aria-hidden="true"
+    >
+      <path d="M4 9h13v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V9Z" />
+      <path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17" />
+      <path d="M8 2c-.5 1 .5 1.5 0 3M12 2c-.5 1 .5 1.5 0 3" />
+    </svg>
+  );
+}
+
 const links = [
   { key: "youtube", label: "YouTube", href: () => siteConfig.social.youtubeUrl, Icon: YouTubeIcon, external: true },
   { key: "instagram", label: "Instagram", href: () => siteConfig.social.instagramUrl, Icon: InstagramIcon, external: true },
   { key: "tiktok", label: "TikTok", href: () => siteConfig.social.tiktokUrl, Icon: TikTokIcon, external: true },
   { key: "email", label: "Email", href: () => `mailto:${siteConfig.social.email}`, Icon: MailIcon, external: false },
+  {
+    key: "coffee",
+    label: "Buy Me a Coffee",
+    href: () => siteConfig.social.buyMeACoffeeUrl,
+    Icon: CoffeeIcon,
+    external: true,
+  },
 ] as const;
 
 export function SocialLinks({ variant = "solid" }: { variant?: "solid" | "outline" }) {
