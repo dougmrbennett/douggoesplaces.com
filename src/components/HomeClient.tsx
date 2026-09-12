@@ -99,7 +99,7 @@ export function HomeClient({ videos, shorts }: { videos: Video[]; shorts: Video[
   const hasMoreVideos = restVideos.length > videosShown;
 
   return (
-    <div className="mx-auto max-w-6xl px-6 py-14 sm:px-10">
+    <div className="mx-auto w-full max-w-6xl px-6 py-14 sm:px-10">
       {/* Search */}
       <div className="mx-auto max-w-xl">
         <input

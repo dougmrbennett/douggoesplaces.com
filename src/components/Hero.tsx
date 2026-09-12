@@ -19,7 +19,7 @@ export function Hero() {
   useEffect(() => setMounted(true), []);
 
   return (
-    <section className="relative flex min-h-[80vh] w-full items-end overflow-hidden bg-ink text-white sm:min-h-[90vh]">
+    <section className="relative flex min-h-[70vh] w-full items-end overflow-hidden bg-ink text-white sm:min-h-[85vh] lg:min-h-[90vh]">
       {/* Warm gradient shown at all times as a base layer, so the hero never
           looks broken even before real photos/video are added. */}
       <div className="absolute inset-0 bg-gradient-to-br from-ocean-dark via-ink to-sunset/40" />
@@ -55,8 +55,8 @@ export function Hero() {
         />
       ) : null}
 
-      <div className="relative z-10 mx-auto w-full max-w-5xl px-6 pb-16 pt-40 [text-shadow:0_1px_6px_rgba(0,0,0,0.6)] sm:px-10 sm:pb-24">
-        <div className="mb-4 flex items-center gap-4">
+      <div className="relative z-10 mx-auto w-full max-w-5xl px-4 pb-10 pt-32 [text-shadow:0_1px_6px_rgba(0,0,0,0.6)] sm:px-10 sm:pb-24 sm:pt-40">
+        <div className="mb-4 flex items-center gap-3 sm:gap-4">
           {siteConfig.avatarImage ? (
             <Image
               src={siteConfig.avatarImage}
@@ -64,11 +64,11 @@ export function Hero() {
               width={200}
               height={200}
               priority
-              className="h-[168px] w-[168px] shrink-0 rounded-full border-2 border-white/70 object-cover shadow-lg sm:h-[192px] sm:w-[192px]"
+              className="h-14 w-14 shrink-0 rounded-full border-2 border-white/70 object-cover shadow-lg sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-[168px] lg:w-[168px] xl:h-[192px] xl:w-[192px]"
             />
           ) : null}
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sunset-light">
+          <div className="min-w-0">
+            <p className="truncate text-xs font-semibold uppercase tracking-[0.1em] text-sunset-light sm:text-sm sm:tracking-[0.2em]">
               {siteConfig.youtube.channelHandle}
             </p>
           </div>
